@@ -21,8 +21,8 @@ if(hours>12){
 
 }
 
-document.getElementById("time").innerText='${hours}:${min}  ${meridian}';
-document.getElementById("day").innerText='today is ${today}' ;
+document.getElementById("time")[0].innerText = '${hours}:${min}  ${meridian}';
+document.getElementById("day")[0].innerText='today is ${today}' ;
 
 
 
